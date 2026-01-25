@@ -1,0 +1,77 @@
+# ============================================================================
+# CONFIGURACIÓN DE AUTENTICACIÓN - STREAMLIT AUTHENTICATOR
+# ============================================================================
+#
+# IMPORTANTE PARA DEPLOY EN STREAMLIT CLOUD:
+# Las contraseñas deben estar en HASH, no en texto plano 
+# Un HASH es una cadena larga y enredada difícil de robar
+# NUNCA subir contraseñas en texto plano a GitHub
+#
+# ============================================================================
+
+cookie:
+  expiry_days: 30
+  key: userloginkey # ¡CAMBIAR ESTO! Debe ser una cadena aleatoria y única
+  name: cookiename  # Nombre de la cookie (puede dejarse así)
+
+credentials:
+  usernames:
+    # ============================================================
+    # EJEMPLO DE USUARIO - COPIAR Y MODIFICAR ESTA ESTRUCTURA
+    # ============================================================
+    # nombre.usuario:  # ← ¡CAMBIAR ESTE NOMBRE DE USUARIO!
+    #   email: correo@ejemplo.cl
+    #   failed_login_attempts: 0  # No modificar - lo maneja la app
+    #   first_name: Nombre
+    #   last_name: Apellido
+    #   logged_in: False  # No modificar - lo maneja la app
+    #   password: 'CONTRASEÑA_EN_HASH'  # ← ¡IMPORTANTE! Debe ser un HASH
+    
+    # ============================================================
+    # USUARIOS EXISTENTES - MANTENER O ELIMINAR SEGÚN NECESIDAD
+    # ============================================================
+    
+    amadora.balladares:
+      email: persona@gmail.com
+      failed_login_attempts: 0 
+      first_name: Amadora
+      last_name: Balladares
+      logged_in: False  
+      password: 1k6s90  
+    
+    leonardo.baez:
+      email: persona2@gmail.cl
+      failed_login_attempts: 0 
+      first_name: Taller de 
+      last_name: Astronomía Antumapu
+      logged_in: False  
+      password: 6m3ls9  
+
+    sergio.hidalgo:
+      email: persona3@gmail.com
+      failed_login_attempts: 0 
+      first_name: Grupo
+      last_name: Alboctava
+      logged_in: False  
+      password: 2k4ls0 
+    
+    sandra.quiroz:
+      email: persona4@gmail.com
+      failed_login_attempts: 0 
+      first_name: Academia de
+      last_name: Ciencias Experimentales (ACE)
+      logged_in: False  
+      password: 33kld4 
+
+# ============================================================================
+# CONFIGURACIÓN PARA STREAMLIT CLOUD
+# ============================================================================
+#
+# PASOS PARA EL DEPLOY:
+# 1. Generar hashes de contraseñas
+#
+# 2. Agregar datos de los usuarios 
+#
+# 3. Conectar el repositorio a Streamlit Cloud
+#
+#==============================================================================
