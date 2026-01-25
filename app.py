@@ -1,4 +1,3 @@
-# IMPORTS ESENCIALES
 import streamlit as st
 import numpy as np
 import pandas as pd
@@ -9,7 +8,6 @@ import yaml
 from yaml import SafeLoader
 import base64
 
-# IMPORTS CONDICIONALES (solo si los usas)
 try:
     from st_files_connection import FilesConnection  # Solo si usas S3
     import boto3
@@ -19,7 +17,6 @@ except ImportError:
 # TU AUTHENTICATOR
 import streamlit_authenticator_spa as stauth
 
-# TUS FUNCIONES
 from funciones import *
 
 
