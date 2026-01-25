@@ -1,0 +1,7 @@
+id_usuario,id_dir,nombre_dir,direccion,latitud,longitud,altitud
+1,1,Universidad de Concepción,Edmundo Larenas 219 - Concepción,-36.8284,-73.0356,28.0
+2,1,Liceo Bicentenario Antumapu,Calle Amthor #1750 - La Calera,-32.7871,-71.2177,202.0
+2,2,Villa Italia 17,Villa Italia 17 - Hijuelas,-32.7969,-71.1442,264.0
+3,1,Colegio Juan Bosco,Gabriela Mistral 805 - San Pedro de la Paz,-36.8824,-73.1297,17.0
+4,1,Liceo Bicentenario Monseñor Enrique Alvear (Sede media),Avenida La Estrella 205 - Pudahuel,-33.4627,-70.7525,483.0
+4,2,Casa pasaje Celia Taiba,Pasaje Celia Taiba 1391 - Maipú,-33.4672,-70.7564,481.0
