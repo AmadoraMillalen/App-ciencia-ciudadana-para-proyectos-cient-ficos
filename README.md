@@ -18,3 +18,4 @@ App web en Streamlit para proyectos de ciencia ciudadana escolar. **Totalmente c
 10. **Los estudiantes ya pueden iniciar sesión y subir sus datos**
 
 Contacto: vapordeagua.titans@gmail.com
+Producto financiado por Programa de Proyección al Medio Externo (PME) de la Iniciativa Científica Milenio
