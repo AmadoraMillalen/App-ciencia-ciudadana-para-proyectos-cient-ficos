@@ -1,0 +1,11 @@
+# requirements.txt para GitHub
+streamlit>=1.28.0
+streamlit-authenticator-spa>=0.1.0
+pandas>=2.0.0
+numpy>=1.24.0,<2.0.0
+plotly>=5.18.0
+pyyaml>=6.0
+
+# OPCIONAL: Descomenta si usas AWS S3
+# st-files-connection>=0.1.0
+# boto3>=1.34.0
