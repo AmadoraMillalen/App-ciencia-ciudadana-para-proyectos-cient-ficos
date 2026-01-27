@@ -170,7 +170,7 @@ def cat_stats(catalog, variables_config=None):
                         showlegend=False
                     )
                     
-                    st.plotly_chart(fig, theme="streamlit", use_container_width=True)
+                    st.plotly_chart(fig, theme="streamlit", width='stretch')
     else:
         # Si no hay variables_config, crear histogramas para todas las columnas numéricas
         numeric_cols = catalog.select_dtypes(include=[np.number]).columns
@@ -191,7 +191,7 @@ def cat_stats(catalog, variables_config=None):
                     yaxis_title_text='Frecuencia',
                     showlegend=False
                 )
-                st.plotly_chart(fig, theme="streamlit", use_container_width=True)
+                st.plotly_chart(fig, theme="streamlit", width='stretch')
     
     return
 
@@ -343,14 +343,14 @@ def run_stats_plot(catalog, nombre_df, variables_config=None, key='default_key')
                     fig.update_yaxes(title_text=y_name)
             
             fig.update_layout(height=500)
-            st.plotly_chart(fig, use_container_width=True, theme="streamlit")
+            st.plotly_chart(fig, width='stretch', theme="streamlit")
             
         except Exception as e:
             st.error(f"Error al crear el gráfico: {e}")
             # Fallback a la función original
             try:
                 fig = run_scatter_fig_err(catalog_display, x, y, c, cs)
-                st.plotly_chart(fig, theme="streamlit", use_container_width=True)
+                st.plotly_chart(fig, theme="streamlit", width='stretch')
             except:
                 st.error("No se pudo crear el gráfico con los datos seleccionados")
     
@@ -418,6 +418,7 @@ def cargar_configuracion_variables():
                 'año': 2025
             }
         }
+
 
 
 
