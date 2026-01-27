@@ -1,4 +1,3 @@
-streamlit==1.28.0
 streamlit-authenticator-spa==0.1.0
 pandas==2.1.4
 numpy==1.24.4
