@@ -33,7 +33,7 @@ def footer():
     with col1:
         st.image("titanslogo.png", use_container_width =True)
     with col2:
-        st.image("logo-do.svg", use_container_width =True) #AQUI PUEDES AGREGAR TU LOGO
+        st.image("logo-proyect.svg", use_container_width =True) #AQUI PUEDES AGREGAR TU LOGO
     with col3:
         st.image("milenio.png", use_container_width =True)
     st.markdown("<p style='text-align: center;background-color: rgba(255, 255, 255, 0.4) !important'>© 2025 TITANS </h2>", unsafe_allow_html=True)
