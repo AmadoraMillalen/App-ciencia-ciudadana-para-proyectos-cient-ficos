@@ -462,7 +462,7 @@ with tab4:
         if st.session_state["authentication_status"]:
             if user_full['rol'].values[0] == 'admin':
                 st.markdown('## Vista administrador')
-                df_data['fechahora'] = df_datauser['fecha'].astype(str) + ' ' + df_datauser['hora'].astype(str), errors='coerce')
+                df_data['fechahora'] = pd.to_datetime(df_datauser['fecha'].astype(str) + ' ' + df_datauser['hora'].astype(str), errors='coerce')
                 df_data = df_data.sort_values(by='fechahora')
                 df_data = df_data.reset_index() 
                 
