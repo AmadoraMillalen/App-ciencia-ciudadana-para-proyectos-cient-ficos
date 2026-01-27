@@ -31,11 +31,11 @@ def footer():
     c0, col1,c00, col2,c000,col3, c0000 = st.columns([10,20,5,30,5,20,10])
     # espaciado letral: c0,c00,.. y las imagenes van en col1,col2,col3
     with col1:
-        st.image("titanslogo.png", use_container = stretch)
+        st.image("titanslogo.png", width = stretch)
     with col2:
-        st.image("logo-project.png", use_container =stretch) #AQUI PUEDES AGREGAR TU LOGO
+        st.image("logo-project.png", width =stretch) #AQUI PUEDES AGREGAR TU LOGO
     with col3:
-        st.image("milenio.png", use_container =stretch)
+        st.image("milenio.png", width =stretch)
     st.markdown("<p style='text-align: center;background-color: rgba(255, 255, 255, 0.4) !important'>© 2025 TITANS </h2>", unsafe_allow_html=True)
     #texto centrado fondo semitransparente, usa HTML
     return
