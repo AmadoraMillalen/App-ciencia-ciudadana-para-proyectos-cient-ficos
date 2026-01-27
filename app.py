@@ -15,7 +15,7 @@ except ImportError:
     pass  # No crítico
 
 # TU AUTHENTICATOR
-import streamlit_authenticator_spa as stauth
+import streamlit_authenticator as stauth
 
 from funciones import *
 
