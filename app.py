@@ -180,7 +180,7 @@ with tab3:
         # convierte la columna hora a a hora H,M,S
         df_data['hora'] = pd.to_datetime(df_data['hora'], format='%H:%M:%S').dt.time 
 
-        if "authentication_status" in st.session_state and st.session_state["authentication_status"]:
+        if authentication_status:
             authenticator.logout() #muestra el boton de logout
             username = st.session_state.get('username', None)#obtiene el username
             
