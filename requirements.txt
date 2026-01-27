@@ -3,7 +3,7 @@
 #streamlit-authenticator-spa>=0.1.0
 #pandas>=2.0.0
 #numpy>=1.24.0,<2.0.0
-#plotly>=5.18.0
+plotly
 #pyyaml>=6.0
 
 # OPCIONAL: Descomenta si usas AWS S3
