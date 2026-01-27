@@ -2,8 +2,6 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 import plotly.express as px
-import boto3
-from io import StringIO
 import yaml
 
 
@@ -420,5 +418,6 @@ def cargar_configuracion_variables():
                 'año': 2025
             }
         }
+
 
 
