@@ -167,7 +167,7 @@ with tab3:
     )
 
         try: #muestra un formulario de login
-            authenticator.login() 
+            authenticator.login("Iniciar sesión", "main") 
 
         except Exception as e: #si ocurre algun error lo muestra
             st.error(e)
