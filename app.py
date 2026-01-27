@@ -506,7 +506,7 @@ with tab4:
     footer()
     
 with tab5:
-    conn = st.connection('s3', type=FilesConnection)
+    #conn = st.connection('s3', type=FilesConnection)
     c0, col1, c00 = st.columns([5,90,5])
     with col1:
         st.cache_data.clear()
