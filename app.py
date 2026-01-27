@@ -172,7 +172,7 @@ with tab3:
         except Exception as e: #si ocurre algun error lo muestra
             st.error(e)
         #crea una conexion a un bucket de amazon s3
-        conn = st.connection('s3', type=FilesConnection) 
+        #conn = st.connection('s3', type=FilesConnection) 
  
         df_user = pd.read_csv('users-info.csv')
         df_dir = pd.read_csv('users-dir.csv')
