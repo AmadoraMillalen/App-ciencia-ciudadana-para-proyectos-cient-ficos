@@ -455,7 +455,7 @@ with tab4:
         
         st.markdown('## Mapa de mediciones')
 
-        st.map(df_dir,latitude='latitud',longitude='longitud', use_container_width=False)
+        st.map(df_dir,latitude='latitud',longitude='longitud', width='content')
  
         admins = df_user['usuario'][df_user['rol']=='admin']
 
