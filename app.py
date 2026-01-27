@@ -434,7 +434,7 @@ with tab3:
                                 height=250
                             )
                             fig.update_xaxes(tickformat='%d-%m-%Y')
-                            st.plotly_chart(fig, use_container_width=True)
+                            st.plotly_chart(fig, width='stretch')
 
 
             else:
@@ -455,7 +455,7 @@ with tab4:
         
         st.markdown('## Mapa de mediciones')
 
-        st.map(df_dir,latitude='latitud',longitude='longitud',use_container_width=False)
+        st.map(df_dir,latitude='latitud',longitude='longitud', use_container_width=False)
  
         admins = df_user['usuario'][df_user['rol']=='admin']
 
@@ -501,7 +501,7 @@ with tab4:
                             )
                             fig.update_xaxes(tickformat='%d-%m-%Y')
                             # Usar key dinámico para cada gráfico
-                            st.plotly_chart(fig, use_container_width=True, key=f'all_data_plot_{var_id}')
+                            st.plotly_chart(fig, width='stretch', key=f'all_data_plot_{var_id}')
 
     footer()
     
@@ -738,7 +738,7 @@ with tab5:
                                         paper_bgcolor='rgba(0,0,0,0)'
                                     )
                                     
-                                        st.plotly_chart(fig_radio, use_container_width=True, theme="streamlit")
+                                        st.plotly_chart(fig_radio, width='stretch', theme="streamlit")
                                     else:
                                         st.warning(f"ℹ️ No se encontraron grupos dentro de {radio_km} km de tu ubicación")
 
@@ -807,7 +807,7 @@ with tab5:
                                 )
                                 
                                     fig_altitud.update_layout(height=500)
-                                    st.plotly_chart(fig_altitud, use_container_width=True)
+                                    st.plotly_chart(fig_altitud, width='stretch')
 
                     elif analysis_type == "Comparación entre grupos":
                         st.header("📊 Comparación entre grupos")
@@ -892,6 +892,6 @@ with tab5:
                                 showlegend=True,
                                 height=500
                             )
-                                st.plotly_chart(fig, use_container_width=True, theme="streamlit")
+                                st.plotly_chart(fig, width='stretch', theme="streamlit")
 
     footer()
