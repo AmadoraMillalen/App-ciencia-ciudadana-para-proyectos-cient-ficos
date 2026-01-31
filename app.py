@@ -157,10 +157,9 @@ with tab3:
             st.success("✅ sandra.quiroz encontrado en config.yaml")
         cookie_key = config['cookie']['key']
         st.write(f"Cookie key: {cookie_key[:20]}... (longitud: {len(cookie_key)})")
-        if password.startswith("$2b$12$"):
-            st.success("✅ Contraseña es un HASH (formato correcto)")
+
         try: #muestra un formulario de login
-            name, authentication_status, username = authenticator.login("Iniciar sesión", "main") 
+            authenticator.login() 
             st.write(f"- name: {name}")
             st.write(f"- authentication_status: {authentication_status}")
             st.write(f"- username: {username}")
