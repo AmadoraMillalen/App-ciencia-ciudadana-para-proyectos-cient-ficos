@@ -154,10 +154,10 @@ with tab3:
 
         try: #muestra un formulario de login
             name, authentication_status, username = authenticator.login("Iniciar sesión", "main") 
-		#st.write(f"- name: {name}")
-		#st.write(f"- authentication_status: {authentication_status}")
-		#st.write(f"- username: {username}")
-		#st.write(f"- st.session_state keys: {list(st.session_state.keys())}")
+			st.write(f"- name: {name}")
+			st.write(f"- authentication_status: {authentication_status}")
+			st.write(f"- username: {username}")
+			st.write(f"- st.session_state keys: {list(st.session_state.keys())}")
 		
 
         except Exception as e: #si ocurre algun error lo muestra
