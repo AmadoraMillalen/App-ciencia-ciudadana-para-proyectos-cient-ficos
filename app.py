@@ -385,9 +385,9 @@ with tab3:
                             st.success("Medición se guarda en versión no local")
 
 
-        elif st.session_state['authentication_status'] is False:
+        elif authentication_status is False:
             st.error('Usuario o contraseña incorrecto')
-        elif st.session_state['authentication_status'] is None:
+        elif authentication_status is None:
             st.info('Inicia sesión para ingresar o ver tus datos')
 
         if st.session_state["authentication_status"]: 
