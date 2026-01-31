@@ -159,7 +159,7 @@ with tab3:
         st.write(f"Cookie key: {cookie_key[:20]}... (longitud: {len(cookie_key)})")
 
         try: #muestra un formulario de login
-            authenticator.login() 
+            name, authentication_status, username = authenticator.login("Iniciar sesión", "main")
             st.write(f"- name: {name}")
             st.write(f"- authentication_status: {authentication_status}")
             st.write(f"- username: {username}")
