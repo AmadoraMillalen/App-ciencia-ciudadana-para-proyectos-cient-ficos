@@ -168,7 +168,6 @@ with tab3:
 
         try: #muestra un formulario de login
             name, authentication_status, username = authenticator.login("Iniciar sesión", "main") 
-			#Debug
 			st.write(f"- name: {name}")
 			st.write(f"- authentication_status: {authentication_status}")
 			st.write(f"- username: {username}")
