@@ -151,6 +151,10 @@ with tab3:
         config['cookie']['key'],
         config['cookie']['expiry_days']
     )
+		usuarios = list(config['credentials']['usernames'].keys())
+		st.write(f"Usuarios en config.yaml: {usuarios}")
+		if 'sandra.quiroz' in config['credentials']['usernames']:
+			st.success("✅ sandra.quiroz encontrado en config.yaml")
 
         try: #muestra un formulario de login
             name, authentication_status, username = authenticator.login("Iniciar sesión", "main") 
