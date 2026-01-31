@@ -125,21 +125,7 @@ with tab1:
         # Mostrar enlaces dinámicos si existen
         enlaces = config_vars.get('enlaces_utiles', {})
 
-        st.markdown(f"""
-            <div style='padding: 20px;margin: 20px 0px;
-            color:black;'>
-            <h4 style="color:black;padding-top: 20px;text-align: left;">Resumen</h4>
-            {descripcion_corta} <br>
 
-            <h4 style="color:black;padding-top: 20px;text-align: left;">¿Quieres participar?</h4>
-            Encuentra la información de cómo participar en nuestra página de <a href="{enlaces['pagina_web']}" target="_blank">página web oficial</a> y registrate en <a href="{enlaces['formulario_inscripcion']}" target="_blank">formulario de inscripción</a>. Si tienes alguna duda no dudes en contactarnos en <strong>{email_contacto}</strong>. <br>
-
-            <h4 style="color:black;padding-top: 20px;text-align: left;">¿Ya estás inscrito?</h4>
-            Si ya te inscribiste, inicia sesión en la pestaña "Ingresa tus datos" para subir tus mediciones a nuestra base de datos.
-                
-            <br>
-            </div>
-            """, unsafe_allow_html=True)
         # Mostrar información de coordinadores (opcional)
         if 'coordinadores' in config_vars:
             for coord in config_vars['coordinadores']:
@@ -168,10 +154,10 @@ with tab3:
 
         try: #muestra un formulario de login
             name, authentication_status, username = authenticator.login("Iniciar sesión", "main") 
-		st.write(f"- name: {name}")
-		st.write(f"- authentication_status: {authentication_status}")
-		st.write(f"- username: {username}")
-		st.write(f"- st.session_state keys: {list(st.session_state.keys())}")
+		#st.write(f"- name: {name}")
+		#st.write(f"- authentication_status: {authentication_status}")
+		#st.write(f"- username: {username}")
+		#st.write(f"- st.session_state keys: {list(st.session_state.keys())}")
 		
 
         except Exception as e: #si ocurre algun error lo muestra
