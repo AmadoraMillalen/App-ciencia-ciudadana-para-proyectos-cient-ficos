@@ -162,7 +162,7 @@ with tab3:
                 st.write(f"Empieza con $2b$: {password.startswith('$2b$')}")
                 if password.startswith('$2b$'):
                     st.write("✅ Formato bcrypt correcto")
-				else:
+                else:
                     st.error("❌ NO es un hash bcrypt válido")
         cookie_key = config['cookie']['key']
         st.write(f"Cookie key: {cookie_key[:20]}... (longitud: {len(cookie_key)})")
