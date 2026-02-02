@@ -61,7 +61,7 @@ credentials:
       first_name: Academia de
       last_name: Ciencias Experimentales (ACE)
       logged_in: False  
-      password: "$2b$12$W6i1bHpNzj7vKpD8K9YqZ.8qLmNpQrS..."  
+      password: "$2a$12$qB0LWMJ0jtIZ.JoRznJk8uNL4UYunvpJRCEJepqrfviC9rhktSviW"  
 
 # ============================================================================
 # CONFIGURACIÓN PARA STREAMLIT CLOUD
@@ -76,4 +76,5 @@ credentials:
 #
 
 #==============================================================================
+
 
