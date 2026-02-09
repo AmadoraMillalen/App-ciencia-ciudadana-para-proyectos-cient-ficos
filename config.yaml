@@ -57,7 +57,7 @@ credentials:
     
     sandra.quiroz:
       name: "Academia de Ciencias Experimentales"
-      password: "$2b$12$EixZaYVK1fsbw1ZfbX3OXePaWxn96p36WQoeG6Lruj3vjPGga31lW" 
+      password: $2b$12$EixZaYVK1fsbw1ZfbX3OXePaWxn96p36WQoeG6Lruj3vjPGga31lW 
 
 # ============================================================================
 # CONFIGURACIÓN PARA STREAMLIT CLOUD
@@ -72,6 +72,7 @@ credentials:
 #
 
 #==============================================================================
+
 
 
 
