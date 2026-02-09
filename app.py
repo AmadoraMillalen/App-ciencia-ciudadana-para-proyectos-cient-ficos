@@ -400,7 +400,7 @@ with tab3:
                 stored_hash = config['credentials']['usernames']['sandra.quiroz']['password']
                 if bcrypt.checkpw(entered_password.encode(), stored_hash.encode()):
                     st.success("✅ La contraseña SÍ coincide con el hash!")
-				else:
+                else:
                     st.error("❌ La contraseña NO coincide con el hash")
         elif authentication_status is None:
             st.info('Inicia sesión para ingresar o ver tus datos')
