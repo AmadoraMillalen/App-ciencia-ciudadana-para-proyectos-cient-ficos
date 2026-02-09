@@ -393,6 +393,15 @@ with tab3:
 
         elif authentication_status is False:
             st.error('Usuario o contraseña incorrecto')
+            st.write(f"Config keys: {config['credentials']['usernames'].keys()}")
+            import bcrypt
+            entered_password = st.text_input("¿Qué contraseña intentaste?", type="password")
+            if entered_password:
+                stored_hash = config['credentials']['usernames']['sandra.quiroz']['password']
+                if bcrypt.checkpw(entered_password.encode(), stored_hash.encode()):
+                    st.success("✅ La contraseña SÍ coincide con el hash!")
+				else:
+                    st.error("❌ La contraseña NO coincide con el hash")
         elif authentication_status is None:
             st.info('Inicia sesión para ingresar o ver tus datos')
 
