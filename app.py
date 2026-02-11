@@ -151,21 +151,6 @@ with tab3:
         config['cookie']['key'],
         config['cookie']['expiry_days']
     )
-        usuarios = list(config['credentials']['usernames'].keys())
-        st.write(f"Usuarios en config.yaml: {usuarios}")
-        if 'sandra.quiroz' in config['credentials']['usernames']:
-            st.success("✅ sandra.quiroz encontrado en config.yaml")
-            user_data = config['credentials']['usernames']['sandra.quiroz']
-            st.write("Contenido:", user_data)
-            if 'password' in user_data:
-                password = user_data['password']
-                st.write(f"Empieza con $2b$: {password.startswith('$2b$')}")
-                if password.startswith('$2b$'):
-                    st.write("✅ Formato bcrypt correcto")
-                else:
-                    st.error("❌ NO es un hash bcrypt válido")
-        cookie_key = config['cookie']['key']
-        st.write(f"Cookie key: {cookie_key[:20]}... (longitud: {len(cookie_key)})")
 
         try: #muestra un formulario de login
             name, authentication_status, username = authenticator.login("Iniciar sesión", "main")
