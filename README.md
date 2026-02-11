@@ -6,13 +6,13 @@ App web en Streamlit para proyectos de ciencia ciudadana escolar. **Totalmente c
 # Cómo crear tu propia app de ciencia ciudadana
 
 1. **Haz clic en "Use this template"** (arriba a la derecha en GitHub)
-2. **Nombra tu repositorio**: `ciencia-colegio-minegocio`
+2. **Nombra tu repositorio**: `proyecto-ciencia`
 3. **Edita `config_variables.yaml`** con tus variables
 4. **Edita `config.yaml`** con tus usuarios
 5. **Ve a [Streamlit Cloud](https://share.streamlit.io)**
-6. **Conecta tu repositorio de GitHub**
+6. **Conecta tu repositorio de GitHub** y selecciona python 3.11 
 7. **¡Listo! Tu app estará en:**
-   `https://ciencia-colegio-minegocio.streamlit.app`
+   `https://myapp-ciencia.streamlit.app`
 8. **Edita `users-info.csv`** con tus usuarios
 9. **Edita `users-dir.csv`** con sus ubicaciones de medición
 10. **Los estudiantes ya pueden iniciar sesión y subir sus datos**
