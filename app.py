@@ -172,7 +172,7 @@ with tab3:
         df_data['hora'] = pd.to_datetime(df_data['hora'], format='%H:%M:%S').dt.time 
 
         if authentication_status:
-            authenticator.logout() #muestra el boton de logout
+            authenticator.logout('Cerrar sesión', 'main') #muestra el boton de logout
             username = st.session_state.get('username', None)#obtiene el username
             
             if username:
