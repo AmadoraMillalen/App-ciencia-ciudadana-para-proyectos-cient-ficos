@@ -522,10 +522,6 @@ with tab5:
         if st.session_state["authentication_status"]:
             user_full = df_user[df_user['usuario'] == username]
             user_dir = df_dir[df_dir['id_usuario'] == user_full['id'].iloc[0]]
-            if user_full['rol'].iloc[0] == 'admin':
-                username = "apex.monitor"
-                user_full = df_user[df_user['usuario'] == username]
-                st.warning(f"Modo Admin: Probando como usuario '{username}'")
             df_datauser = df_data[df_data['usuario']==username]
             grupo_usuario_actual = user_full['grupo'].iloc[0]
             usuario_es_admin = user_full['rol'].iloc[0] == 'admin'
