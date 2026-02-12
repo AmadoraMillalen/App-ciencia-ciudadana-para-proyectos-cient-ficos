@@ -37,7 +37,7 @@ credentials:
     
     leonardo.baez:
       name: "Astronomía Antumapu"
-      password: $2b$12$mhlEKPO8f7Fyls252fTV8eCHkVL3eRgr5baV57l0tQv78gzR55Q0  
+      password: $2b$12$mhlEKPO8f7Fyls252fTV8eCHkVL3eRgr5baV57l0tQv78gzR55Q0.  
 
     sergio.hidalgo:
       name: "Alboctava"
@@ -60,6 +60,7 @@ credentials:
 #
 
 #==============================================================================
+
 
 
 
