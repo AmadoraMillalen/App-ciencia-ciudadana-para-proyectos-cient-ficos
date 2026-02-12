@@ -41,7 +41,7 @@ credentials:
       first_name: Taller de 
       last_name: Astronomía Antumapu
       logged_in: False  
-      password: 6m3ls9  
+      password: $2b$12$mhlEKPO8f7Fyls252fTV8eCHkVL3eRgr5baV57l0tQv78gzR55Q0  
 
     sergio.hidalgo:
       email: persona3@gmail.com
@@ -68,6 +68,7 @@ credentials:
 #
 
 #==============================================================================
+
 
 
 
