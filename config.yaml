@@ -32,11 +32,7 @@ credentials:
     # ============================================================
     
     amadora.balladares:
-      email: persona@gmail.com
-      failed_login_attempts: 0 
-      first_name: Amadora
-      last_name: Balladares
-      logged_in: False  
+      name: "admin"
       password: $2b$12$zH7x1DE3Msw6KWL4HYAPaeHlMj7.88N7X8fSarU3B0LPzRebROgQS  
     
     leonardo.baez:
@@ -72,6 +68,7 @@ credentials:
 #
 
 #==============================================================================
+
 
 
 
