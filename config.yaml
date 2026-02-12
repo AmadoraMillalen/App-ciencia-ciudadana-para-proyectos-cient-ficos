@@ -36,19 +36,11 @@ credentials:
       password: $2b$12$zH7x1DE3Msw6KWL4HYAPaeHlMj7.88N7X8fSarU3B0LPzRebROgQS  
     
     leonardo.baez:
-      email: persona2@gmail.cl
-      failed_login_attempts: 0 
-      first_name: Taller de 
-      last_name: Astronomía Antumapu
-      logged_in: False  
+      name: "Astronomía Antumapu"
       password: $2b$12$mhlEKPO8f7Fyls252fTV8eCHkVL3eRgr5baV57l0tQv78gzR55Q0  
 
     sergio.hidalgo:
-      email: persona3@gmail.com
-      failed_login_attempts: 0 
-      first_name: Grupo
-      last_name: Alboctava
-      logged_in: False  
+      name: "Alboctava"
       password: 2k4ls0 
     
     sandra.quiroz:
@@ -68,6 +60,7 @@ credentials:
 #
 
 #==============================================================================
+
 
 
 
