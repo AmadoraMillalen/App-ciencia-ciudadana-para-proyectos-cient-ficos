@@ -1,5 +1,0 @@
-id,rol,nombre,usuario,correo,comuna,ciudad,colegio,fecharegistro,modeloterm,grupo
-1,admin,Amadora Balladares,amadora.balladares,balladares.millalen@gmail.com,Concepción,Concepción,Núcleo Milenio TITANS,2025-02-03,t3,Amadora
-2,user,Leonardo Báez Forton,leonardo.baez,leonardobaezforton@colegioantumapu.cl,Calera,Valparaíso,Liceo Bicentenario Antumapu,2025-04-10,actualizar,Taller de Astronomía Antumapu
-3,user,Sergio Hidalgo Molina,sergio.hidalgo,sergiohidalgo.cl@gmail.com,San Pedro de la Paz,Concepción,Colegio Particulas Juan Bosco,2025-04-10,Alphamed UFR103,Alboctava
-4,user,Sandra Quiroz Silva,sandra.quiroz,sandraquiroz.biologia@gmail.com,Pudahuel,Santiago,Liceo Bicentenario Monseñor Enrique Alvear,2025-04-10,DY-A600,Academia de Ciencias Experimentales
