@@ -41,7 +41,7 @@ credentials:
 
     sergio.hidalgo:
       name: "Alboctava"
-      password: 2k4ls0 
+      password: $2b$12$MfN7ypc.ZbnSPj5fLNE.BegIx1Lq7PV8ZsIZCMmRoztbnim/8KMTu
     
     sandra.quiroz:
       name: "Academia de Ciencias Experimentales"
@@ -60,6 +60,7 @@ credentials:
 #
 
 #==============================================================================
+
 
 
 
