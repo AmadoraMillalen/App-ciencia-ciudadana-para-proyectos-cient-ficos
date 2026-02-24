@@ -3,6 +3,11 @@ Desde el proyecto "Midiendo el vapor de agua" con el Núcleo Milenio TITANS habi
 
 App web en Streamlit para proyectos de ciencia ciudadana escolar. **Totalmente configurable** - cada colegio define qué variables miden los participantes.
 
+Mira este video para entender cómo funciona la generación de hashes:
+
+[![Ver video tutorial](https://img.youtube.com/vi/cSUvZ8bxmJI/0.jpg)](https://youtu.be/cSUvZ8bxmJI)
+
+
 # Cómo crear tu propia app de ciencia ciudadana
 
 1. **Haz clic en "Use this template"** (arriba a la derecha en GitHub)
