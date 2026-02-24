@@ -1,7 +1,7 @@
 # App-ciencia-ciudadana-para-proyectos-cient-ficos
 Desde el proyecto "Midiendo el vapor de agua" con el Núcleo Milenio TITANS habilitamos para la comunidad el código de una App web en Streamlit totalmente configurable. Cada estudiante/profesor tendrá un usuario para subir sus mediciones. Finalmente hay una sección de análisis de los datos recopilados por todos los participantes.
 
-App web en Streamlit para proyectos de ciencia ciudadana escolar. **Totalmente configurable** - cada colegio define qué variables medir.
+App web en Streamlit para proyectos de ciencia ciudadana escolar. **Totalmente configurable** - cada colegio define qué variables miden los participantes.
 
 # Cómo crear tu propia app de ciencia ciudadana
 
@@ -19,3 +19,4 @@ App web en Streamlit para proyectos de ciencia ciudadana escolar. **Totalmente c
 
 Contacto: vapordeagua.titans@gmail.com
 Producto financiado por Programa de Proyección al Medio Externo (PME) de la Iniciativa Científica Milenio
+Desarrolladoras: Andrea Guerrero y Amadora Balladares
