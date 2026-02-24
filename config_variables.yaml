@@ -30,7 +30,7 @@ variables:
     requerido: true
     
   # EJEMPLO: Un colegio podría agregar estas variables
-  ph:
+ ph:
     nombre: "pH del agua"
     tipo: "number"
     unidad: "pH"
@@ -38,12 +38,12 @@ variables:
     max: 14
     paso: 0.1
   #   
-   velocidad_viento:
-     nombre: "Velocidad del viento"
-     tipo: "number"
-     unidad: "km/h"
-     min: 0
-     max: 200
+  velocidad_viento:
+    nombre: "Velocidad del viento"
+    tipo: "number"
+    unidad: "km/h"
+    min: 0
+    max: 200
 
 # config_TEMPLATE.yaml
 proyecto:
